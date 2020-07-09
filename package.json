@@ -1,6 +1,6 @@
 {
-  "name": "@erickjosuegarcia/ckeditor5-build-sagcc",
-  "version": "19.0.0",
+  "name": "@erick_josue_garcia/ckeditor5-build-sagcc",
+  "version": "1.0.0",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
   "keywords": [
     "ckeditor5-build",
@@ -69,10 +69,12 @@
   "author": "CKSource (http://cksource.com/)",
   "license": "GPL-2.0-or-later",
   "homepage": "https://ckeditor.com/ckeditor-5",
-  "bugs": "https://github.com/ckeditor/ckeditor5/issues",
+  "bugs": {
+    "url": "https://github.com/ckeditor/ckeditor5/issues"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/ckeditor5-build-classic.git"
+    "url": "git+ssh://git@github.com/erickjosuegarcia/ckeditor5-build-sagcc.git"
   },
   "scripts": {
     "build": "webpack --mode production",
@@ -97,5 +99,8 @@
       "pre-commit": "lint-staged"
     }
   },
-  "dependencies": {}
+  "dependencies": {},
+  "directories": {
+    "test": "tests"
+  }
 }
