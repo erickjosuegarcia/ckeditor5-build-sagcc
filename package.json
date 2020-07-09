@@ -1,7 +1,8 @@
 {
-  "name": "@erick_josue_garcia/ckeditor5-build-sagcc",
+  "name": "@erickjosuegarcia/ckeditor5-build-sagcc",
   "version": "1.0.0",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
