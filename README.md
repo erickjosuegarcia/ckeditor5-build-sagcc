@@ -1,2 +1,21 @@
 # ckeditor5-build-sagcc
- Editor para el proyecto SAGCC
+ Editor Ckeditor5 personalizado
+    'heading',
+    '|',
+    'alignment',
+    'bold',
+    'italic',
+    'link',
+    'bulletedList',
+    'numberedList',
+    '|',
+    'indent',
+    'outdent',
+    '|',
+    'imageUpload',
+    'blockQuote',
+    'insertTable',
+    'mediaEmbed',
+    'undo',
+    'redo',
+    'pageBreak'
